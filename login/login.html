@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+        img src="./img/logo.png" alt="Logo do Metflix">
+    </header>
     <main class="container">
         <h1 style="font-size: 1.6em;">Bem-vindo ao Metflix</h1>
         <h1>Login</h1>
@@ -14,13 +17,25 @@
             <div class="div-box">
                 <input placeholder="E-mail ou usuário" type="email">
             </div>
+
             <div class="div-box">
                 <input placeholder="Senha" type="password">
             </div>
-            <input id="remember" type="checkbox">
-            <label for="remember">Lembrar-me</label>
-            <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+
+            <div>
+                <input id="remember" type="checkbox">
+                <label for="remember">Lembrar-me</label>
+            </div>
+
+            <div>
+                <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+            </div>
+
             <button class="btn-1" type="submit">Entrar</button>
+
+            <div class="registro">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
         </form>
     </main>
 </body>
